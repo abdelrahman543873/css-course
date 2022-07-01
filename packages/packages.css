@@ -1,0 +1,37 @@
+.details-section {
+  background: #bbebc8;
+  border: 3px green solid;
+  margin: 8px;
+  width: 50%;
+}
+
+.details-section:hover {
+  border: 3px red solid;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.details-title {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 20%;
+}
+
+.details-secondary {
+  color: grey;
+  margin-left: 20%;
+}
+
+.details-link {
+  text-decoration: none;
+}
+
+.details-desc {
+  background: white;
+  padding: 8px;
+  color: black;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 38px;
+  border: green 2px solid;
+}
