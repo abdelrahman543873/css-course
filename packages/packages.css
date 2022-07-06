@@ -1,10 +1,10 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .package {
   width: 80%;
-  margin: 16px 0;
+  margin: 1rem 0;
   border: 4px solid #0e4f1f;
   border-left: none;
   position: relative;
@@ -24,18 +24,18 @@ main {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .package__badge {
   top: 0px;
   right: 0px;
-  margin: 20px;
+  margin: 1.2rem;
   position: absolute;
-  font-size: 12px;
+  font-size: 0.8rem;
   color: white;
   background: #ff5454;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .package__subtitle {
@@ -55,10 +55,11 @@ main {
 }
 
 .background {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  background: url("../images/plans-background.jpg");
+  background: url("../images/plans-background.jpg") center/cover;
+  filter: grayscale(40%);
   z-index: -1;
 }
 
