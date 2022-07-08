@@ -1,7 +1,7 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
     url("images/freedom.jpg") center / cover no-repeat border-box, #ff1b68;
-  height: 50vh;
+  height: 80vh;
   width: 100vw;
   padding: 10px;
   position: relative;
@@ -63,7 +63,7 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) and (orientation: portrait) {
+@media (min-width: 40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
