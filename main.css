@@ -24,7 +24,7 @@
   display: block;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) {
   .key-feature {
     display: inline-block;
     width: 30%;
