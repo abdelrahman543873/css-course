@@ -62,14 +62,24 @@ body {
 }
 
 .main-header__brand img {
-  height: 22px;
+  height: 18px;
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   text-align: right;
   width: calc(100% - 122px);
   vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+  .main-nav {
+    display: inline-block;
+  }
+
+  .toggle-button{
+    display: none;
+  }
 }
 
 .main-nav__items {
