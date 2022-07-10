@@ -1,6 +1,25 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("anonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("anonymousPro-Bold.ttf");
+  font-weight: 700;
+}
 
 main {
   padding-top: 2rem;
+}
+
+.background {
+  background: url("../images/plans-background.jpg") center/cover;
+  filter: grayscale(40%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
 
 .package {
@@ -15,10 +34,7 @@ main {
 .package:active {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-color: #ff5454;
-}
-
-.clear-fix {
-  clear: both;
+  /* border-color: #ff5454 !important; */
 }
 
 .package a {
@@ -29,10 +45,10 @@ main {
 }
 
 .package__badge {
-  top: 0px;
-  right: 0px;
-  margin: 1.2rem;
   position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.2rem;
   font-size: 0.8rem;
   color: white;
   background: #ff5454;
@@ -44,24 +60,20 @@ main {
 }
 
 .package__info {
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid #0e4f1f;
   color: #0e4f1f;
   background: white;
   font-size: 1.2rem;
+  /* font-style font-variant font-weight font-size/line-height font-family*/
+}
+
+.clearfix {
+  clear: both;
 }
 
 #plus {
   background: rgba(213, 255, 220, 0.95);
-}
-
-.background {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background: url("../images/plans-background.jpg") center/cover;
-  filter: grayscale(40%);
-  z-index: -1;
 }
 
 #free {
@@ -74,8 +86,7 @@ main {
 
 #free:hover,
 #free:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  border-color: #ff5454;
+  border-left-color: #ff5454;
 }
 
 #premium {
@@ -92,8 +103,9 @@ main {
 
 @media (min-width: 40rem) {
   main {
-    margin: 3rem auto;
     max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -108,7 +120,6 @@ main {
 
   #free:hover,
   #free:active {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-right-color: #ff5454;
   }
 }

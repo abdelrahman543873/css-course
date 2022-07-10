@@ -1,20 +1,20 @@
+main {
+  padding-top: 2.5rem;
+}
+
 .testimonial {
   font-size: 1.2rem;
 }
 
-/* .testimonial__list {
-  width: 80%;
-  margin: auto;
-} */
-
-.testimonial:first-of-type {
-  margin-top: 96px;
-}
+/*.testimonial__list {
+    width: 80%;
+    margin: auto;
+  }*/
 
 .testimonial__image-container {
   width: 100%;
   max-width: 40rem;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 .testimonial__image {
@@ -24,7 +24,7 @@
 
 .testimonial__info {
   text-align: right;
-  padding: 14px;
+  padding: 0.9rem;
 }
 
 #customer-2.testimonial {
@@ -36,9 +36,9 @@
 }
 
 .testimonial__name {
-  margin: 3px;
+  margin: 0.2rem;
   color: #ff5454;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .testimonial__subtitle {
@@ -58,7 +58,7 @@
 }
 
 .testimonial__text {
-  margin: 3px;
+  margin: 0.2rem;
 }
 
 @media (min-width: 40rem) {
