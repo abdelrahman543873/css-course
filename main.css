@@ -81,13 +81,15 @@
 @media (min-width: 40rem) {
   .plan__list {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .plan {
-    display: inline-block;
     width: 30%;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 13rem;
     max-width: 25rem;
   }
@@ -112,7 +114,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .key-feature__image {
@@ -134,10 +137,8 @@
 
 @media (min-width: 40rem) {
   .key-feature {
-    display: inline-block;
     width: 30%;
     max-width: 25rem;
-    vertical-align: top;
   }
 }
 
