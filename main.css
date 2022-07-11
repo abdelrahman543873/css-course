@@ -144,14 +144,12 @@
   }
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
-
 .modal {
   position: fixed;
-  display: none;
   z-index: 200;
+  transform: translateY(-3rem);
+  transition: opacity 1s ease-out, transform 500ms;
+  opacity: 0;
   top: 20%;
   left: 30%;
   width: 40%;
