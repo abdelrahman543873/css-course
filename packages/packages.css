@@ -35,7 +35,7 @@ main {
 .package:active {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-color: #ff5454;
-  /* border-color: #ff5454 !important; */
+  animation: upwards-motion 300s linear;
 }
 
 .package a {
@@ -126,5 +126,11 @@ main {
   #free:hover,
   #free:active {
     border-right-color: #ff5454;
+  }
+}
+
+@keyframes upwards-motion {
+  0% {
+    transform: translateY(-30px);
   }
 }
